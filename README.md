@@ -26,7 +26,8 @@ cd frontend && npm install && npm start
 ```
 
 **First Login:**
-Click "Sign Up" and create an account
+1. Click "Sign Up" and create an account
+
 
 
 ## 📸 Features Overview
