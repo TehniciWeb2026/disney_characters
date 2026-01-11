@@ -26,8 +26,7 @@ cd frontend && npm install && npm start
 ```
 
 **First Login:**
-1. Click "Sign Up" and create an account
-2. Or use default admin: `admin / admin123`
+Click "Sign Up" and create an account
 
 
 ## 📸 Features Overview
