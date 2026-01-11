@@ -7,6 +7,29 @@ A modern, full-stack web application for managing Disney characters with advance
 ![Angular](https://img.shields.io/badge/Angular-17-red)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue)
 
+
+## 🚀 Getting Started
+
+**Quick Start:**
+```bash
+# 1. Setup database
+mysql -u root -p -e "CREATE DATABASE disney_db;"
+mysql -u root -p disney_db < test.sql
+
+# 2. Start backend
+cd backend && mvn spring-boot:run
+        #Backend will start at: `http://localhost:8080`
+# 3. Start frontend (new terminal)
+cd frontend && npm install && npm start
+
+# 4. Open http://localhost:4200
+```
+
+**First Login:**
+1. Click "Sign Up" and create an account
+2. Or use default admin: `admin / admin123`
+
+
 ## 📸 Features Overview
 
 ### 🔐 **Authentication & Authorization**
@@ -495,13 +518,6 @@ Built as a demonstration of modern full-stack web development using:
 - Angular community
 - All contributors and testers
 
-## 📞 Support
-
-For issues and questions:
-1. Check the [QUICK_START.md](QUICK_START.md) guide
-2. Review [DATABASE_SETUP.md](DATABASE_SETUP.md) for database help
-3. See [FIXES_COMPLETE.md](FIXES_COMPLETE.md) for common solutions
-4. Open an issue on GitHub
 
 ## 🌟 Features Highlight
 
@@ -546,39 +562,4 @@ This project demonstrates:
 - ✅ State management
 - ✅ HTTP interceptors and guards
 
-## 🚀 Getting Started
 
-**See [QUICK_START.md](QUICK_START.md) for detailed setup instructions.**
-
-**Quick Start:**
-```bash
-# 1. Setup database
-mysql -u root -p -e "CREATE DATABASE disney_db;"
-mysql -u root -p disney_db < test.sql
-
-# 2. Start backend
-cd backend && mvn spring-boot:run
-
-# 3. Start frontend (new terminal)
-cd frontend && npm install && npm start
-
-# 4. Open http://localhost:4200
-```
-
-**First Login:**
-1. Click "Sign Up" and create an account
-2. Or use default admin: `admin / admin123`
-
----
-
-**⭐ Star this repository if you find it useful!**
-
-**📖 Documentation:** Full guides available in project root
-- `QUICK_START.md` - Get running in 5 minutes
-- `DATABASE_SETUP.md` - Database configuration
-- `SEARCH_AND_FILTER_GUIDE.md` - Feature documentation
-- `FIXES_COMPLETE.md` - Troubleshooting guide
-
----
-
-*Built with ❤️ using Java Spring Boot and Angular*
